@@ -1,0 +1,19 @@
+{
+  "name": "protractor-reddit",
+  "version": "1.0.0",
+  "description": "Protractor test suite for reddit.com",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonionoca/protractor-reddit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonionoca/protractor-reddit/issues"
+  },
+  "homepage": "https://github.com/antonionoca/protractor-reddit#readme"
+}
