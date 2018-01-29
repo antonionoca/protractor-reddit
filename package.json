@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Protractor test suite for reddit.com",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "webdriver-update": "webdriver-manager update"
+    "test": "protractor config.js",
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-start": "webdriver-manager start"
   },
   "repository": {
     "type": "git",
