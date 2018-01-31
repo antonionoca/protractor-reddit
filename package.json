@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Protractor test suite for reddit.com",
   "scripts": {
+    "lint": "jshint **.js",
     "test": "protractor config.js",
     "webdriver-update": "webdriver-manager update",
     "webdriver-start": "webdriver-manager start"
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/antonionoca/protractor-reddit#readme",
   "devDependencies": {
+    "jshint": "^2.9.5",
     "protractor": "^5.3.0"
   }
 }
