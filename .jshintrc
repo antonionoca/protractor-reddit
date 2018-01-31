@@ -1,0 +1,18 @@
+{
+    "globals": {
+        "browser": false,
+        "by": false,
+        "describe": false,
+        "document": false,
+        "element": false,
+        "expect": false,
+        "exports": false,
+        "it": false,
+        "localStorage": false,
+        "module": false,
+        "require": false,
+        "window": false
+    },
+    "strict": "global",
+    "sub": true
+}
