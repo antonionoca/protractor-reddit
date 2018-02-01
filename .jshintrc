@@ -1,5 +1,9 @@
 {
     "globals": {
+        "after": false,
+        "afterEach": false,
+        "before": false,
+        "beforeEach": false,
         "browser": false,
         "by": false,
         "describe": false,
@@ -7,10 +11,12 @@
         "element": false,
         "expect": false,
         "exports": false,
+        "inject": false,
         "it": false,
         "localStorage": false,
         "module": false,
         "require": false,
+        "spyOn": false,
         "window": false
     },
     "strict": "global",
