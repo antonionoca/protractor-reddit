@@ -14,5 +14,6 @@
         "window": false
     },
     "strict": "global",
-    "sub": true
+    "sub": true,
+    "undef": true
 }
