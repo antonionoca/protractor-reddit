@@ -2,7 +2,7 @@
 
 exports.config = {
 
-  specs: ['todo-spec.js'],
+  specs: ['*.spec.js'],
 
   capabilities: {
     browserName: 'chrome',
