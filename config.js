@@ -4,7 +4,7 @@ var Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
 
 exports.config = {
 
-  specs: ['*.spec.js'],
+  specs: ['./test/*.spec.js'],
 
   capabilities: {
     browserName: 'chrome',
