@@ -13,6 +13,7 @@
         "exports": false,
         "inject": false,
         "it": false,
+        "jasmine": false,
         "localStorage": false,
         "module": false,
         "require": false,
