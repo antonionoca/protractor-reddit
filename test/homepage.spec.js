@@ -4,7 +4,7 @@ describe('reddit homepage', function() {
 
   beforeAll(function() {
     browser.waitForAngularEnabled(false);
-    browser.get('https://reddit.com');
+    browser.get('https://reddit.com/r/all');
   });
 
   it('should have 25 ranks', function() {
@@ -21,5 +21,9 @@ describe('reddit homepage', function() {
 
   it('should have 25 titles', function() {
     expect(element.all(by.css('a.title')).count()).not.toBeLessThan(25);
+  });
+
+  it('should show 18 links in the footer', function() {
+    expect(element.all(by.css('div.footer-parent a')).count()).not.toBeLessThan(18);
   });
 });
