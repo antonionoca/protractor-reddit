@@ -1,10 +1,11 @@
 'use strict';
 
+var homePage = require('../page/home.page.js');
+
 describe('reddit homepage', function() {
 
   beforeAll(function() {
-    browser.waitForAngularEnabled(false);
-    browser.get('https://reddit.com/r/all');
+    homePage.get();
   });
 
   it('should have 25 ranks', function() {
