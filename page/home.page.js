@@ -14,6 +14,11 @@ var HomePage = function() {
 
   self.get = function() {
     browser.waitForAngularEnabled(false);
+    browser.get('https://reddit.com');
+  };
+
+  self.getAll = function() {
+    browser.waitForAngularEnabled(false);
     browser.get('https://reddit.com/r/all');
   };
 };

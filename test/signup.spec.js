@@ -1,10 +1,11 @@
 'use strict';
 
+var homePage = require('../page/home.page.js');
+
 describe('homepage signup modal', function() {
 
   beforeAll(function() {
-    browser.waitForAngularEnabled(false);
-    browser.get('https://reddit.com');
+    homePage.get();
   });
 
   it('should show signup modal on login-required click', function(done) {
