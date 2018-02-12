@@ -5,7 +5,7 @@ var homePage = require('../page/home.page.js');
 describe('reddit homepage', function() {
 
   beforeAll(function() {
-    homePage.get();
+    homePage.getAll();
   });
 
   it('should have 25 ranks', function() {
