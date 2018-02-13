@@ -1,10 +1,11 @@
 'use strict';
 
+var subredditsPage = require('../page/subreddit.page.js');
+
 describe('subreddits page', function() {
 
   beforeAll(function() {
-    browser.waitForAngularEnabled(false);
-    browser.get('https://reddit.com/subreddits');
+    subredditsPage.get();
   });
 
   it('should list 25 subreddits to add', function() {
